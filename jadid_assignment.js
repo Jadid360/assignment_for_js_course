@@ -21,9 +21,9 @@ function footToMiles(callback) {
   const result = `${footValue} foot = ${miles} mile`;
   console.log(result);
 }
-// const footValue = inchToFoot(100);
-// footValue;
-// footToMiles(footValue);
+const footValue = inchToFoot(100);
+footValue;
+footToMiles(footValue);
 
 // ==============================================
 // ======= TASK 2 ========
@@ -36,7 +36,7 @@ function woodCalculator(chair, table, bed) {
   const result = chairsCubic + tablesCubic + bedsCubic;
   return `Needs to buy ${result} Cubic Wood`;
 }
-// console.log(woodCalculator(5, 2, 1));
+console.log(woodCalculator(5, 2, 1));
 
 // ==================================
 // ====== TASK 3 ======
@@ -87,7 +87,7 @@ function bricksNeeded(num) {
     neededBricksForTwentyOneToOthers;
   console.log(totalBrickNeeded);
 }
-// bricksNeeded(23);
+bricksNeeded(23);
 
 // ====== TASK 4 =======
 // short name checker
@@ -123,4 +123,4 @@ function willIgoToOffice() {
     }
   }
 }
-// willIgoToOffice();
+willIgoToOffice();
