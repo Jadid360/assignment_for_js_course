@@ -87,7 +87,7 @@ function bricksNeeded(num) {
     neededBricksForTwentyOneToOthers;
   console.log(totalBrickNeeded);
 }
-bricksNeeded(23);
+bricksNeeded(22);
 
 // ====== TASK 4 =======
 // short name checker
